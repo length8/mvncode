@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 public class HelloWorldController implements Controller {
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 
-        System.out.println("-----------------begin------------------");
+        System.out.println("-----------------begin--hh----------------");
         return new ModelAndView("/welcome");
     }
 }
